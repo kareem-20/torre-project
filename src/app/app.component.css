@@ -1,0 +1,79 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+.searchbar input {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 12px 8px;
+  outline-color: #1976d2;
+  font-size: 18px;
+  color: #333;
+}
+.searchbar p {
+  color: rgb(223, 71, 89);
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.person {
+  /* background-color: 	#5e626b; */
+  flex-basis: 45%;
+
+  /* width: 90%; */
+  margin: auto;
+  box-shadow: 0px 6px 20px #999;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px 12px;
+  margin-top: 20px;
+}
+
+.person .image img {
+  border-radius: 12px;
+}
+.person h1 {
+  font-size: 24px;
+}
+.person span.title {
+  background-color: #999;
+  padding: 4px 6px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #fff;
+  margin-inline-end: 8px;
+}
+.person h4 {
+  margin-block: 16px;
+}
+.person .skills {
+  white-space: break-spaces;
+  line-height: 28px;
+}
+.person .skill {
+  background-color: #999;
+  margin: 0;
+  border-radius: 8px;
+  padding: 0;
+  font-size: 12px;
+  color: #fff;
+  margin-inline-end: 8px;
+  display: inline-block;
+  margin-block-end: 4px;
+} 
+
